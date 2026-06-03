@@ -66,3 +66,23 @@ acciones de control extremadamente agresivas y propensas a la saturación. Por e
 contrario, una masa situada a mayor altura (un valor de l más grande) mantiene el polo
 inestable más cerca del origen, ralentizando la dinámica de caída y haciendo que el
 sistema sea notablemente más dócil y fácil de estabilizar.
+
+## Prototipos
+### Prototipo 1, peso más bajo posible
+En este primer diseño era que el peso de los motores y de las pilas estaban muy cerca del eje y por tanto aumentaban el peso de la M y m era el peso de la pcb con sus componentes por lo tanto el sistema era muy difícil de controlar. 
+<p align="center">
+  <img src="images/Prototipo1.png" width="300">
+</p>
+
+
+### Prototipo 2, subimos el peso
+Descartamos la hipótesis anterior y colocamos los motores en la parte inferior de la base pero seguía sin ser suficiente y el péndulo no oscilaba de manera estable. Volviendo a la explicación anterior nuestra M seguía siendo muy alta y nuestra m y nuestra l muy pequeñas.  
+<p align="center">
+  <img src="images/Prototipo2.png" width="300">
+</p>
+
+### Diseño final
+En esta fase colocamos las pilas por encima de la pcb y añadimos peso en esa zona para que nuestras m y l crecieran. Con estos cambios solo quedaba ajustar los valores del PID, ahora se comportaba como un péndulo invertido. 
+<p align="center">
+  <img src="images/Pendulo.jpeg" width="300">
+</p>
