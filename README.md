@@ -29,3 +29,34 @@ Primero de todo, hemos creado un prototipo basándonos en modelos realizados por
   <img src="images/componentes.png" width="300">
 </p>
 
+# Diseño del chasis
+## Fundamento teórico
+Tomando como base el modelo físico-matemático linealizado de un péndulo invertido sobre un carro desarrollado por Triviño Macías (2020).  
+<p align="center">
+  <img src="images/Carro.png" width="300">
+</p>
+La función de transferencia en lazo abierto que relaciona la respuesta angulardel péndulo (Θ(𝑠)) con la fuerza de entrada aplicada al carro (−𝑈(𝑠)) se
+define como: 
+<p align="center">
+  <img src="images/Formula.png width="100">
+</p>
+Donde M es la masa del carro, m es la masa del péndulo, 𝑔 es la aceleración de la
+gravedad y l es la longitud del péndulo. De esta ecuación se deduce inmediatamente
+que el sistema es intrínsecamente inestable debido a la presencia de un polo en el
+semiplano derecho (RHP) del plano complejo s, cuya ubicación exacta es:
+<p align="center">
+  <img src="Polo.png" width="100">
+</p>
+Al analizar matemáticamente esta expresión, se observa que la longitud l se encuentra
+en el denominador de la raíz. Por lo tanto, si la masa en suspensión está muy baja (un
+valor de l pequeño), el valor del polo inestable aumenta significativamente,
+desplazándose hacia la derecha en el eje real.
+En la teoría de control, cuanto más alejado se encuentre un polo inestable del
+origen, más rápida y violenta será la respuesta divergente del sistema. Físicamente,
+esto significa que un péndulo corto o con la masa muy baja caerá a una velocidad
+exponencialmente mayor ante cualquier perturbación. Esta aceleración reduce
+críticamente el tiempo de reacción disponible para el sistema de control, exigiendo
+acciones de control extremadamente agresivas y propensas a la saturación. Por el
+contrario, una masa situada a mayor altura (un valor de l más grande) mantiene el polo
+inestable más cerca del origen, ralentizando la dinámica de caída y haciendo que el
+sistema sea notablemente más dócil y fácil de estabilizar.
