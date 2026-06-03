@@ -38,14 +38,14 @@ Tomando como base el modelo físico-matemático linealizado de un péndulo inver
 La función de transferencia en lazo abierto que relaciona la respuesta angulardel péndulo (Θ(𝑠)) con la fuerza de entrada aplicada al carro (−𝑈(𝑠)) se
 define como: 
 <p align="center">
-  <img src="images/Formula.png width="100">
+  <img src="images/Formula.png" width="300">
 </p>
 Donde M es la masa del carro, m es la masa del péndulo, 𝑔 es la aceleración de la
 gravedad y l es la longitud del péndulo. De esta ecuación se deduce inmediatamente
 que el sistema es intrínsecamente inestable debido a la presencia de un polo en el
 semiplano derecho (RHP) del plano complejo s, cuya ubicación exacta es:
 <p align="center">
-  <img src="Polo.png" width="100">
+  <img src="images/Polo.png" width="300">
 </p>
 Al analizar matemáticamente esta expresión, se observa que la longitud l se encuentra
 en el denominador de la raíz. Por lo tanto, si la masa en suspensión está muy baja (un
