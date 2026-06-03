@@ -18,6 +18,7 @@ Primero de todo, hemos creado un prototipo basándonos en modelos realizados por
   - **Yaw**
 
 - **ROB-14450:** Puente-h encargado de regular el voltaje que va hacia los motores
+Además de otros componentes:
 - **Regulador de voltaje, formado por:**
   - **2 condensadores cerámicos de 10uF:** Necesarios para el regulador
   - **LM-7805:** Regula de los ~14V de entrada a 5V para alimetar el microcontrolador
@@ -27,6 +28,11 @@ Primero de todo, hemos creado un prototipo basándonos en modelos realizados por
 - **2 Motores GA25-370**
 <p align="center">
   <img src="images/componentes.png" width="300">
+</p>
+
+Aqui mostramos una imagen de la PCB final desarrollada con pines hembra soldados para no tener que soldar directamente los componentes:
+<p align="center">
+  <img src="images/PCB.jpeg" width="300">
 </p>
 
 # Diseño del chasis
