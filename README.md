@@ -1,5 +1,7 @@
 # Pendulo_invertido
-!(images/Pendulo.jpeg)
+<p align="center">
+  <img src="images/Pendulo.jpeg" width="300" >
+</p>
 Realización de un péndulo invertido para la asignatura de Teoria de control en USC Robótica.
 
 La motivación de este proyecto ha sido crear un chasis de un solo eje con dos ruedas tratando de hacer que mediante un contolador PID no se caiga en ninún momento.
@@ -23,5 +25,7 @@ Primero de todo, hemos creado un prototipo basándonos en modelos realizados por
   
 - **Portapilas x3:** Donde van pilas con una carga de 4.7V
 - **2 Motores GA25-370**
-
+<p align="center">
+  <img src="images/componentes.png" width="300">
+</p>
 
